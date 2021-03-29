@@ -3,7 +3,9 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         int score = 0;
-        int[] array = {2, 3, 4, 5};
+        int num = (int) (Math.random() * 10);
+        int[] array = {num, num + 1, num + 2, num + 3};
+
         Scanner scanner = new Scanner(System.in);
 
         while (score != 4) {
